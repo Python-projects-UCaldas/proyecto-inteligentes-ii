@@ -3,3 +3,5 @@ entrenamiento_con_ML/data
 entrenamiento_con_ML/test_images/video.mp4
 .ipynb_checkpoints/
 __pycache__/
+modulo_flask_visualizacion/static/predict/
+modulo_flask_visualizacion/static/upload/

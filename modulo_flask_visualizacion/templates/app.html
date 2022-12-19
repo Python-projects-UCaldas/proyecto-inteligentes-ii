@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block bodyblock %}
+
+<div class="container">
+    <br><br>
+    <h3 class="display-8">Aplicación de reconocimiento facial</h3>
+    
+    <p>
+        Clasificación por género: Esta aplicación se basa en datos y en un modelo de aprendizaje automático.
+        Tan pronto como el usuario carga la imagen, en segundo plano se convierte en escala de grises, se recorta la cara, se convierte en imagen 
+        eigen y finalmente se modela para predecir y por último, el modelo para predecir. 
+        Toda esta funcionalidad se vuelca en la aplicación flask.
+    </p>
+    <img src="/static/images/002.PNG" class="image-fluid" width="600" alt="">
+
+    <a class="btn btn-outline-primary" href="/app/gender/">Género App</a>
+
+</div>
+
+{% endblock %}
