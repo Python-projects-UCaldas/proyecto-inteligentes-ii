@@ -1,0 +1,5 @@
+entrenamiento_con_ML/crop_data
+entrenamiento_con_ML/data
+entrenamiento_con_ML/test_images/video.mp4
+.ipynb_checkpoints/
+__pycache__/
